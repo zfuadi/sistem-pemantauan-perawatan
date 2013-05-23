@@ -1,0 +1,326 @@
+body{
+margin:0px;
+background-color:black;
+font-family:"arial";
+font-size:12px;
+color:#666666;
+}
+
+a{
+color:#f37021;
+}
+
+a:hover{
+text-decoration:underline !important;
+}
+
+#wraper{
+width:100%;
+height:100%;
+background:url("img/bg_repeat_Mataram.jpg");
+background-repeat:repeat-x;
+padding-top: 5px;
+}
+
+#wraper #container{
+height: 455px;
+background: url("img/WiFi_Landing_Mataram.jpg") no-repeat;
+background-position: center;
+}
+#content{
+height: 460px;
+width: 980px;
+margin: 0 auto;
+}
+#footer{
+margin: 10px auto;
+width: 980px;
+}
+.wording{
+float: left;
+width: 30%;
+margin-top: 20px;
+}
+
+.logo{
+float: right;
+}
+.text{
+position: relative;
+top: 59px;
+float: right;
+right: 44px;
+}
+.text a{
+text-decoration:none;
+}
+.text img{
+cursor:pointer;
+}
+
+.clear{
+clear:both;
+}
+
+/* LOGIN */
+
+.login{
+float: left;
+margin-top: 250px;
+margin-left: 125px;
+background-color:#ed1b24;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+padding: 10px;
+width: 264px;
+height: 185px;
+box-shadow: 1px 1px 20px white;
+}
+
+.login h1{
+color: white;
+margin-top: 0px;
+margin-left: 6px;
+padding: 0px;
+margin: 0px;
+}
+
+.tbl_login{
+float: left;
+width: 260px;
+height: auto;
+}
+
+.tbl_login p {
+float: left;
+margin: 0px;
+padding: 7px;
+width: 65px;
+color:#fff;
+font-weight:bold;
+}
+.login input {
+border:1px solid $fff;
+}
+.login input[type="text"],input[type="password"]  {
+width: 177px;
+border: 1px solid #e93705;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+margin: 3px 0px;
+}
+.login select {
+width: 260px;
+border: 1px solid #e93705;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+margin: 3px 0px;
+}
+.login input[type="submit"] {
+background-image:url('img/button_login.jpg');
+cursor:pointer;
+border:0px;
+width:80px;
+height:25px;
+float: left;
+}
+
+.warp_from{
+border-top: 1px solid #f7995a;
+border-bottom: 1px solid #f7995a;
+padding: 10px 0px;
+margin: 10px 0px;
+}
+
+
+/* popup */
+
+.popup{
+cursor:pointer;
+color: white;
+float: left;
+padding: 5px 10px;
+width: 160px;
+text-align: center;
+}
+
+.tab {
+float: left;
+width: 264px;
+height: 210px;
+padding: 10px;
+margin-top: 225px;
+background-color: #ED1B24;
+margin-left: -2px;
+display: none;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.tab h1{
+color: white;
+margin-top: 0px;
+margin-left: 6px;
+padding: 0px;
+margin: 0px 0px 0px 0px;
+}
+
+.tab ul{
+color: white;
+padding: 0px;
+border-left: 1px solid #F7995A;
+padding-left: 25px;
+}
+.tab ul li{
+list-style-type:square;
+margin-bottom: 5px;
+}
+.tab ul li a{
+color:blue;
+}
+.registrasi_sukses p {
+color:#fff;
+font-size: 0.8em;
+text-align: center;
+margin-top: 10px;
+float: left;
+margin-bottom: 0px;
+}
+
+.registrasi{
+font-size:12px;
+color:#fff;
+}
+.registrasi p {
+color: white;
+margin: 0px;
+}
+
+.registrasi label{
+float: left;
+width: 85px;
+padding-top: 5px;
+}
+
+.registrasi input[type="text"]  {
+width: 177px;
+border: 1px solid #e93705;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+margin: 3px 0px;
+}
+.registrasi img {
+width: 80px;
+float: left;
+margin-right:10px;
+}
+.p_login p{
+color: #E0FF00;
+font-weight:bold;
+margin: 0px;
+padding: 0px;
+width: auto;
+cursor: pointer;
+float: left;
+}
+.dis_c{
+float:left;
+}
+.dis_t{
+margin-top:2px;
+}
+.dis_t a{
+color:#E0FF00;
+}
+.input{
+width:50px !Important;
+}
+.margin label{
+margin: 0px;
+padding: 0px;
+}
+
+.notif {
+width: 250px;
+float: left;
+color: red;
+background-color: #FFF500;
+border: 1px solid red;
+padding: 5px;
+}
+
+.notif_sukses{
+width: 335px;
+float: left;
+color: black;
+background-color: white;
+border: 1px solid red;
+padding: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.loading{
+width: 250px;
+float: left;
+}
+
+.loading img{
+width: 10px;
+}
+
+/* popup_box DIV-Styles*/
+#popup_box { 
+    display:none; /* Hide the DIV */
+    position:fixed;  
+    _position:absolute; /* hack for internet explorer 6 */  
+    height:auto;  
+    width:350px;  
+    background:#ED1B24;
+	left: 450px;
+    top: 80px;
+    z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: 15px;  
+    
+    /* additional features, can be omitted */
+    border:2px solid #ddd;      
+    padding:15px;  
+    font-size:15px;  
+    -moz-box-shadow: 0 0 5px #ddd;
+    -webkit-box-shadow: 0 0 5px #ddd;
+    box-shadow: 0 0 5px #ddd;
+    
+}
+
+a{  
+cursor: pointer;  
+text-decoration:none;  
+} 
+
+/* This is for the positioning of the Close Link */
+#popupBoxClose {
+line-height: 15px;
+right: 10px;
+top: 10px;
+position: absolute;
+color: #6FA5E2;
+font-size: 10px; 
+}
+.explain {
+margin-left: 90px;
+font-size: 0.8em;
+float: left;
+}
+
+.next {
+text-align: center;
+margin-top: 10px;
+float: left;
+width: 335px;
+}
+
+.next img{
+cursor:pointer;
+}
