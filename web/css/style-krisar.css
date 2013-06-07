@@ -1,0 +1,36 @@
+body{background-color:#f1f1f1;
+  font: 12px Verdana, Arial, Helvetica, sans-serif;
+  //color: #666666;
+  padding:0px;margin:0px;
+  }
+ #content{left:30%;border:1px solid #ccc;} 
+ #container{
+  height:150px;
+  margin-top:10%;
+  background-repeat:repeat-x, repeat-y;
+ }
+ #container #content{
+  border:0px #000 solid;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left:35px;
+  /* jarak kanan dan kiri */
+  margin-left:30%;
+  margin-right:33%;
+  background:white;
+ }
+ #title_form{border-bottom:1px solid #ccc;
+ text-shadow:1px 1px #ccc;font-size:24px;
+ font-weight:bold;
+ width:430px;
+ margin-bottom:10px;
+ }
+
+ .label_width{width:70px;}
+ .text_width{width:350px};
+ .btn{width: 800px;}
+ .msg{height:30px;width:430px;background: green}
+ .msg p{text-shadow:0px 0px #f1f1f1;text-align:center;padding:5px;color:white;font-weight:bold;font-size:14px;}

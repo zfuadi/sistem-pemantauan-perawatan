@@ -1,0 +1,210 @@
+
+#tabel{
+	margin-left:20px;
+}
+
+#tabel td {
+	font-size:15px;
+}
+input[type="text"]{
+    
+    padding: 5px;   
+    border: 1px solid #DDDDDD;
+    
+    /*Applying CSS3 gradient*/
+    background: -moz-linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);    
+    background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF), color-stop(5%, #EEEEEE) to(#FFFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB', endColorstr='#FFFFFF');
+    
+    /*Applying CSS 3radius*/   
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    /*Applying CSS3 box shadow*/
+    -moz-box-shadow: 0 0 2px #DDDDDD;
+    -webkit-box-shadow: 0 0 2px #DDDDDD;
+    box-shadow: 0 0 2px #DDDDDD;
+
+}
+input[type="text"]:hover
+{
+    border:1px solid #cccccc;
+}
+input[type="text"]:focus
+{
+    box-shadow:0 0 2px #FFFE00;
+}
+
+textarea {
+	width:300px;
+	height:170px;
+}
+
+#tbl {
+	width:95%;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	color:#666;
+	font-size:11px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+#tbl th {
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+#tbl th:first-child{
+	text-align: left;
+	padding-left:20px;
+}
+#tbl tr:first-child td:first-child{
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+#tbl tr:first-child td:last-child{
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+#tbl tr{
+	text-align: center;
+	padding-left:20px;
+}
+#tbl tr td:first-child{
+	text-align: left;
+	padding-left:10px;
+	border-left: 0;
+	font-size:12px;
+}
+#tbl tr td {
+	padding:5px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+	text-align: center;
+}
+#tbl tr.even td{
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+#tbl tr.checked td{
+	background: #138d00;
+	color: white ;
+	text-shadow: 1px 1px 0px black;
+	font-weight:bold;
+	background: -webkit-gradient(linear, left top, left bottom, from(#138d00), to(#138d00));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+#tbl tr.head td{
+	background: #666666;
+	color:white;
+	font-size:13px;
+	font-weight:bold;
+	text-shadow: 1px 1px 0px black;
+	background: -webkit-gradient(linear, left top, left bottom, from(#bbbbbb), to(#666666));
+	background: -moz-linear-gradient(top,  #bbbbbb,  #666666);
+}
+#tbl th{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #039;
+	background: #b9c9fe;
+}
+#tbl td{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 0px solid #fff;
+	color: #669;
+}
+
+#tbl tr:last-child td{
+	border-bottom:0;
+}
+#tbl tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+#tbl tr:last-child td:last-child{
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+
+#tbl tr:hover td{
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+#tbl tr.checked:hover td{
+	background: #34dd44;
+	color:#666;
+	font-size:11px;
+	text-shadow: 1px 1px 0px #fff;
+	//background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+#tbl tr a {
+    //padding-left: 30px;
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px #496d2a;
+}
+
+/*jika data belum ada href nya dibawah ini*/
+#tbl tr a {
+    //padding-left: 30px;
+	text-decoration: none;
+	color: red;
+	font-weight:bold;
+	text-shadow: 0px 0px #496d2a;
+}
+
+#tbl tr.checked a:hover {
+    //padding-left: 30px;
+	//text-decoration: none;
+	color: black;
+	font-weight:bold;
+	//text-shadow: 1px 1px red;
+}
+
+#tbl tr.even a:hover {
+    //padding-left: 30px;
+	//text-decoration: none;
+	color: black;
+	text-shadow: 1px 1px #496d2a;
+}
+
+#tbl tr a:hover {
+    //padding-left: 30px;
+	//text-decoration: none;
+	color: black;
+	text-shadow: 0px 0px #496d2a;
+}
+
